@@ -1,10 +1,3 @@
-Ah, I see what you're referring to now! You're talking about code blocks in markdown, which is often used in GitHub README files to make it easy to copy text. You can wrap text with triple backticks (```) to create these code blocks, which makes it easy to copy the commands.
-
-Here’s the updated version with the correct formatting for easy copying on GitHub:
-
-
----
-
 D-TECH CUSTOM TELEGRAM BOT
 
 This repository contains the D-TECH Speed Test Bot for Telegram, allowing users to test their internet speed directly via Telegram commands. The bot tests the user's download speed, upload speed, and ping, and displays the results along with an estimated time to download a 1GB file.
@@ -25,13 +18,13 @@ Installation
 
 First, clone the repository using Git:
 
-''' git clone https://github.com/Preasx24/D-TECH_CUSTOM_TEL.BOT.git
-cd D-TECH_CUSTOM_TEL.BOT '''
+```git clone https://github.com/Preasx24/D-TECH_CUSTOM_TEL.BOT.git```
+```cd D-TECH_CUSTOM_TEL.BOT```
 
 2. Install Dependencies
 
 
-' ' 'pip install python-telegram-bot speedtest-cli ' ' '
+```pip install python-telegram-bot speedtest-cli```
 
 3. Get a Telegram Bot API Token
 
@@ -45,15 +38,13 @@ To use the bot, you'll need a Telegram bot API token. Follow these steps to get 
 
 3. Copy the API token provided by BotFather.
 
-
-
-The bot will save this token in a file called telegram_token.txt. If this file doesn't exist, you will be prompted to enter the token when you first run the bot.
-
 4. Run the Script
 
 After everything is set up, you can run the bot with the following command:
 
-'''python D-TECH_bot.py'''
+```python D-TECH_bot.py```
+
+paste the api token when prompted 
 
 The bot will now be running and ready to respond to commands! 🎉
 
