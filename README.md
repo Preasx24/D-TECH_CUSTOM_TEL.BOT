@@ -1,3 +1,9 @@
+Ah, I see what you're referring to now! You're talking about code blocks in markdown, which is often used in GitHub README files to make it easy to copy text. You can wrap text with triple backticks (```) to create these code blocks, which makes it easy to copy the commands.
+
+Here’s the updated version with the correct formatting for easy copying on GitHub:
+
+
+---
 
 D-TECH CUSTOM TELEGRAM BOT
 
@@ -9,6 +15,8 @@ Features:
 
 📊 Display Detailed Results and recommendations based on speed
 
+
+
 ---
 
 Installation
@@ -17,21 +25,19 @@ Installation
 
 First, clone the repository using Git:
 
-git clone https://github.com/Preasx24/D-TECH_CUSTOM_TEL.BOT.git
-cd D-TECH_CUSTOM_TEL.BOT
+''' git clone https://github.com/Preasx24/D-TECH_CUSTOM_TEL.BOT.git
+cd D-TECH_CUSTOM_TEL.BOT '''
 
 2. Install Dependencies
 
-The script uses several Python libraries. You can install the required dependencies using pip. If you don't have a requirements.txt file, you can manually install the necessary libraries:
 
-pip install python-telegram-bot speedtest-cli
-
+' ' 'pip install python-telegram-bot speedtest-cli ' ' '
 
 3. Get a Telegram Bot API Token
 
 To use the bot, you'll need a Telegram bot API token. Follow these steps to get one:
 
-1. Open Telegram and search for BotFather https://t.me/BotFather .
+1. Open Telegram and search for BotFather: https://t.me/BotFather.
 
 
 2. Type /newbot and follow the instructions to create a new bot.
@@ -47,7 +53,7 @@ The bot will save this token in a file called telegram_token.txt. If this file d
 
 After everything is set up, you can run the bot with the following command:
 
-python D-TECH_bot.py
+'''python D-TECH_bot.py'''
 
 The bot will now be running and ready to respond to commands! 🎉
 
@@ -58,7 +64,7 @@ Commands
 
 /start
 
-Displays a welcome message
+Displays a welcome message.
 
 /speedtest
 
@@ -76,3 +82,10 @@ Once the test is complete, the bot displays:
 Test Results
 
 Recommendations based on speed
+
+
+
+---
+
+Now, when users view this on GitHub, they will be able to easily copy commands and code because of the proper code block formatting.
+
