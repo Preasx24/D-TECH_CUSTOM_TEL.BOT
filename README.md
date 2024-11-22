@@ -19,6 +19,7 @@ Installation
 First, clone the repository using Git:
 
 ```git clone https://github.com/Preasx24/D-TECH_CUSTOM_TEL.BOT.git```
+
 ```cd D-TECH_CUSTOM_TEL.BOT```
 
 2. Install Dependencies
